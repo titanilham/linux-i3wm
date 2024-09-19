@@ -23,7 +23,7 @@ sudo dnf install nitrogen
 ```
 # ~/.config/i3/config
 
-exec --no-startup-id nitrogen /home/ilham/Изображения/wallpaper --restore
+exec --no-startup-id nitrogen /home/ilham/Изображения/wallpaper --restore; sleep 1
 ```
 
 ### Picom
