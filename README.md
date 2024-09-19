@@ -9,8 +9,34 @@ sudo dnf install i3
 ## Installing other programs:
 
 ### Rofi
+
+```
+sudo dnf install rofi
+```
 ### Nitrogen
+
+```
+sudo dnf install nitrogen
+```
+После установки нужно создать папку где будуд находиться обои 
+
+```
+# ~/.config/i3/config
+
+exec --no-startup-id nitrogen /home/ilham/Изображения/wallpaper --restore
+```
+
 ### Picom
-### Nemo 
+
+```
+sudo dnf install picom
+```
+
+### Nemo
+
+```
+sudo dnf install nemo
+```
+
 ### Xscreensaver
 ### Polybar 
