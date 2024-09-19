@@ -64,6 +64,8 @@ bindsym $mod+d exec --no-startup-id rofi -show run
 
 bindsym $mod+g exec --no-startup-id i3lock -i /home/ilham/Изображения/anime_blur.png --nofork
 
+bindsym $mod+p exec --no-startup-id systemctl suspend
+
 ## Solarized colorshema
 # class                 border  backgr. text    indicator
 client.focused          #9e4299 #9e4299 #fdf6e3 #cb4b16
@@ -93,7 +95,7 @@ bindsym $mod+Shift+Down move down
 bindsym $mod+Shift+Up move up
 bindsym $mod+Shift+Right move right
 
-#АВТОЗАГРУЗКИ
+#nitrogen
 exec --no-startup-id nitrogen /home/ilham/Изображения/wallpaper --restore; sleep 1
 
 
@@ -121,7 +123,6 @@ bindsym $mod+space focus mode_toggle
 bindsym $mod+a focus parent
 
 # focus the child container
-set $ws10 "10"
 #bindsym $mod+d focus child
 
 # Define names for default workspaces for which we configure key bindings later on.
@@ -135,6 +136,7 @@ set $ws6 "6"
 set $ws7 "7"
 set $ws8 "8"
 set $ws9 "9"
+set $ws10 "10"
 
 # switch to workspace
 bindsym $mod+1 workspace number $ws1
