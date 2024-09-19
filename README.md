@@ -74,8 +74,10 @@ sudo dnf install flameshot
 
 ## Мои горячие клавиши:
 
-$mod+Print - скриншот 
+$mod+Print - скриншот
+
 $mod+G - экран блокировки
+
 $mod+P - переход в спящий режим
 
 
