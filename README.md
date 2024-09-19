@@ -46,4 +46,20 @@ sudo dnf install nemo
 
 ```
 sudo dnf install polybar
-``` 
+```
+После утсановки нужно созадть файл launch.sh в /home/ilham/.config/polybar и записать туда:
+```
+#!/bin/sh
+
+# Terminate already running bar instances
+killall -q polybar
+
+echo "___" | tee -a /tmp/polybar1.log /tmp/polybar2.log
+polybar example 2>&1 | tee -a /tmp/polybar1.log & disown
+
+echo "Polybar загрузился..."
+```
+config.ini для изменения polybar находиться в /etc/polybar
+
+
+
