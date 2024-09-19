@@ -39,4 +39,8 @@ sudo dnf install nemo
 ```
 
 ### Xscreensaver
-### Polybar 
+### Polybar
+
+```
+sudo dnf install polybar
+``` 
