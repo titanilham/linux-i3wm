@@ -28,7 +28,7 @@ exec --no-startup-id dex-autostart --autostart --environment i3
 
 # xss-lock grabs a logind suspend inhibit lock and will use i3lock to lock the
 # screen before suspend. Use loginctl lock-session to lock your screen.
-exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
+exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock -i /home/ilham/Изображения/anime_blur.png --nofork
 
 # NetworkManager is the most popular way to manage wireless networks on Linux,
 # and nm-applet is a desktop environment-independent system tray GUI for it.
@@ -62,6 +62,7 @@ bindsym $mod+d exec --no-startup-id rofi -show run
 # .desktop file. It is a wrapper around dmenu, so you need that installed.
 # bindcode $mod+40 exec --no-startup-id i3-dmenu-desktop
 
+bindsym $mod+g exec --no-startup-id i3lock -i /home/ilham/Изображения/anime_blur.png --nofork
 
 ## Solarized colorshema
 # class                 border  backgr. text    indicator
@@ -120,6 +121,7 @@ bindsym $mod+space focus mode_toggle
 bindsym $mod+a focus parent
 
 # focus the child container
+set $ws10 "10"
 #bindsym $mod+d focus child
 
 # Define names for default workspaces for which we configure key bindings later on.
@@ -133,7 +135,6 @@ set $ws6 "6"
 set $ws7 "7"
 set $ws8 "8"
 set $ws9 "9"
-set $ws10 "10"
 
 # switch to workspace
 bindsym $mod+1 workspace number $ws1
