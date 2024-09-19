@@ -13,3 +13,4 @@ sudo dnf install i3
 ### Picom
 ### Nemo 
 ### Xscreensaver
+### Polybar 
