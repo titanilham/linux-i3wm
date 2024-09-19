@@ -65,4 +65,11 @@ sudo dnf install lxappearance
 ```
 для настройки тем
 
+### Flameshot
+
+```
+sudo dnf install flameshot
+```
+для скриншотов 
+
 
