@@ -59,7 +59,7 @@ echo "Polybar загрузился..."
 ```
 config.ini для изменения polybar находиться в /etc/polybar, его нужно скопировать в ~/.config/polybar и редактировать файл там.
 
-### lxappearance
+### Lxappearance
 ```
 sudo dnf install lxappearance
 ```
