@@ -40,10 +40,6 @@ sudo dnf install picom
 sudo dnf install nemo
 ```
 
-### Xscreensaver
-
-```
-```
 ### Polybar
 
 ```
