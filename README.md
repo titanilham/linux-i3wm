@@ -13,6 +13,8 @@ sudo dnf install i3
 ```
 sudo dnf install rofi
 ```
+темы добавляются в папку - /usr/share/rofi/themes
+
 ### Nitrogen
 
 ```
