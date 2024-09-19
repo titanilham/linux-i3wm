@@ -1,6 +1,6 @@
 # linux i3wm
 
-# Install Fedora:
+### Install Fedora:
 
 ```
 sudo dnf install i3
