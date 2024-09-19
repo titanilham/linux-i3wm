@@ -57,7 +57,7 @@ polybar example 2>&1 | tee -a /tmp/polybar1.log & disown
 
 echo "Polybar загрузился..."
 ```
-config.ini для изменения polybar находиться в /etc/polybar, его нужно скопировать в ~/.config/polybar и редактировать файл там
+config.ini для изменения polybar находиться в /etc/polybar, его нужно скопировать в ~/.config/polybar и редактировать файл там.
 
 
 
