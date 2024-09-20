@@ -72,6 +72,18 @@ sudo dnf install flameshot
 ```
 для скриншотов 
 
+
+## Plymouth (команды, чтобы поменять заставку запуска системы):
+
+```
+plymouth-set-default-theme -l
+```
+
+```
+sudo plymouth-set-default-theme -R "theme-name"
+```
+ссылка на темы - https://www.gnome-look.org/browse?cat=108&ord=latest
+
 ## Мои горячие клавиши:
 
 $mod+Print - скриншот
@@ -79,7 +91,6 @@ $mod+Print - скриншот
 $mod+G - экран блокировки
 
 $mod+P - переход в спящий режим
-
 
 
 
