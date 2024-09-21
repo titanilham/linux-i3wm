@@ -1,4 +1,4 @@
-# linux i3wm
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&pause=1000&color=E885F7&width=435&lines=linux+i3wm" alt="Typing SVG"/>
 
 ### Install i3wm Fedora:
 
