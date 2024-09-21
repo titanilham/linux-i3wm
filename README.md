@@ -78,6 +78,12 @@ sudo dnf install flameshot
 ```
 для скриншотов 
 
+## Brightnessctl
+
+```
+sudo dnf install brightnessctl
+```
+для изменения яркости экрана 
 
 ## Plymouth (команды, чтобы поменять заставку запуска системы):
 
