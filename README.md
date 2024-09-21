@@ -6,7 +6,7 @@
 sudo dnf install i3
 ```
 
-## Installing other programs:
+## Installation and configuration other programs:
 
 ### Vim
 
