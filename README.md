@@ -77,6 +77,7 @@ sudo dnf install flameshot
 
 ```
 #/usr/share/plymouth/themes
+
 plymouth-set-default-theme -l
 ```
 
