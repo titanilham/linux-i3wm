@@ -8,6 +8,12 @@ sudo dnf install i3
 
 ## Installing other programs:
 
+### Vim
+
+```
+sudo dnf install vim
+```
+
 ### Rofi
 
 ```
