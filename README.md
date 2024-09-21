@@ -92,6 +92,7 @@ $mod+G - экран блокировки
 
 $mod+P - переход в спящий режим
 
+## Preview:
 
-
+<img src="https://github.com/titanilham/linux-i3wm/blob/main/preview/2024-09-21_16-21.png?raw=true"/>
 
