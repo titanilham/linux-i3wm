@@ -76,6 +76,7 @@ sudo dnf install flameshot
 ## Plymouth (команды, чтобы поменять заставку запуска системы):
 
 ```
+#/usr/share/plymouth/themes
 plymouth-set-default-theme -l
 ```
 
