@@ -71,6 +71,8 @@ sudo dnf install lxappearance
 ```
 для настройки тем
 
+темы находятся в папке - /usr/share/themes
+
 ### Flameshot
 
 ```
