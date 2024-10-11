@@ -3,7 +3,7 @@
 ### Install i3wm Fedora:
 
 ```
-sudo dnf install i3
+sudo dnf install i3 i3status dmenu i3lock xbacklight feh conky
 ```
 
 ## Installation and configuration other programs:
