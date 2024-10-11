@@ -123,3 +123,5 @@ $mod+P - переход в спящий режим
 
 <img src="https://github.com/titanilham/linux-i3wm/blob/main/preview/2024-09-21_16-21.png?raw=true"/>
 
+<img src="https://github.com/titanilham/linux-i3wm/blob/main/i3wm%20fedora.png?raw=true"/>
+
