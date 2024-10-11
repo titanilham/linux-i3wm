@@ -104,6 +104,13 @@ sudo plymouth-set-default-theme -R "theme-name"
 ```
 ссылка на темы - https://www.gnome-look.org/browse?cat=108&ord=latest
 
+## acpi
+
+```
+sudo dnf install acpi
+```
+показывает процент зарядки (если работаешь в консолььным режиме, что бы знать сколько осталось зарядки на ноуте)
+
 ## Мои горячие клавиши:
 
 $mod+Print - скриншот
