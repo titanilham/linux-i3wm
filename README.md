@@ -55,7 +55,7 @@ sudo dnf install nemo
 ```
 sudo dnf install polybar
 ```
-После утсановки нужно созадть файл launch.sh в /home/ilham/.config/polybar и записать туда:
+После установки нужно созадть файл launch.sh в /home/ilham/.config/polybar и записать туда:
 ```
 #!/bin/sh
 
@@ -67,7 +67,7 @@ polybar example 2>&1 | tee -a /tmp/polybar1.log & disown
 
 echo "Polybar загрузился..."
 ```
-config.ini для изменения polybar находиться в /etc/polybar, его нужно скопировать в ~/.config/polybar и редактировать файл там.
+config.ini для изменения polybar находится в /etc/polybar, его нужно скопировать в ~/.config/polybar и редактировать файл там.
 
 ### Lxappearance
 ```
@@ -109,7 +109,7 @@ sudo plymouth-set-default-theme -R "theme-name"
 ```
 sudo dnf install acpi
 ```
-показывает процент зарядки (если работаешь в консолььным режиме, что бы знать сколько осталось зарядки на ноуте)
+показывает процент зарядки (если работаешь в консольном режиме, что бы знать сколько осталось зарядки на ноуте)
 
 ## Мои горячие клавиши:
 
